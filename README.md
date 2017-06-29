@@ -8,7 +8,22 @@ Once you have one, download CASIO FA-124 from https://edu.casio.com/education/su
 This program will allow you to upload files to the calculator.
 Install it, and when it's done, open the program and connect your calculator to the computer. If it's via USB, a window will pop up on the calculator. Press [F1] to select recieve and transmit memory.
 After that, go to FA-124 and click on the "Connect" icon from the Calculator window. This will connect the computer to the calculator.
-Grab CASDUNG.G1M to FA-124 -> Default.
-Once it is on the "Default" folder, expand it and move the already imported file to the "Program" folder from the calculator. Then, remove the cable.
+Now, depending on what you want, you may grab these files to the "Default" folder of the FA-124 window:
+[Not Required] LVLEDIT.G1M -> Allows the user to edit their own levels.
+Uses (writes on) variables:
+Mat A [Temporal]
+List 26 (Items 1 and 2) [Temporal]
+G, H, A, B, C, D, K [Temporal]
+
+[Required] MODREND.G1M -> Used by the game for rendering levels. Used by both the level editor and the main game.
+Doesn't write on any variable.
+
+[Required] CASDUNG.G1M -> The main game.
+Uses (Writes on) variables:
+Mat A [Temporal]
+List 26 (Items 1 and 2) [Temporal]
+N, M, V, W, G, H, R, Q, C, D [Temporal]
+
+Once it is on the "Default" folder, expand it, expand the "Program" folder, and move the already imported files you grabbed in to the "Program" folder from the calculator. Then, disconnect the cable.
 Now you can play on your calculator! Just press MENU > 9, select RPG V2.0 and press EXE to play.
 Have fun!
