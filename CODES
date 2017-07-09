@@ -1,0 +1,9 @@
+Codes for the level editor:
+
+0 -> Space (for walking)
+1 -> Wall
+2**** -> Door (The first two ** are the room code, the last two ** are the coordinates for the player's spawn point)
+3 -> Chest (WIP)
+90 -> Invisible wall
+91 -> Hidden hole/path
+92**** -> Hidden door
