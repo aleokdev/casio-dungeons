@@ -9,7 +9,7 @@ This program will allow you to upload files to the calculator.
 Install it, and when it's done, open the program and connect your calculator to the computer. If it's via USB, a window will pop up on the calculator. Press [F1] to select recieve and transmit memory.
 After that, go to FA-124 and click on the "Connect" icon from the Calculator window. This will connect the computer to the calculator.
 Now, depending on what you want, you may grab these files to the "Default" folder of the FA-124 window:
-[Not Required] LVLEDIT.G1M -> Allows the user to edit their own levels.
+[Not Required / Not Working] LVLEDIT.G1M -> Allows the user to edit their own levels.
 Uses (writes on) variables:
 Mat A [Temporal]
 List 26 (Items 1 and 2) [Temporal]
