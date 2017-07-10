@@ -16,13 +16,18 @@ List 26 (Items 1 and 2) [Temporal]
 G, H, A, B, C, D, K [Temporal]
 
 [Required] MODREND.G1M -> Used by the game for rendering levels. Used by both the level editor and the main game.
-Doesn't write on any variable.
+Uses (Writes on) variables:
+E [Temporal]
 
 [Required] CASDUNG.G1M -> The main game.
 Uses (Writes on) variables:
 Mat A [Temporal]
 List 26 (Items 1 and 2) [Temporal]
 N, M, V, W, G, H, R, Q, C, D [Temporal]
+
+[Required] SAVEDATA.G1M -> Save data (List 1)
+
+[Required] LEVELS.G1M -> Levels (Matrices B-E)
 
 Once it is on the "Default" folder, expand it, expand the "Program" folder, and move the already imported files you grabbed in to the "Program" folder from the calculator. Then, disconnect the cable.
 Now you can play on your calculator! Just press MENU > 9, select RPG V2.0 (main game) or LVLEDIT (level editor) and press EXE to start.
